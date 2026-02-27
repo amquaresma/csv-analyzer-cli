@@ -1,3 +1,11 @@
+# Como usar este arquivo:
+# - Cada linha representa um gasto
+# - Colunas: data, categoria, descricao, valor
+# - Data no formato DD/MM/AAAA
+# - Valor usando ponto como separador decimal (ex: 250.00)
+# - Categorias sugeridas: alimentacao, transporte, lazer, saude, moradia
+# - Não use acentos nas categorias para evitar problemas de encoding
+# ---
 data,categoria,descricao,valor
 01/02/2025,alimentacao,mercado,250.00
 05/02/2025,transporte,uber,35.50
