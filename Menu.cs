@@ -24,7 +24,7 @@ class Menu
             switch (opcao)
             {
                 case "1": CarregarCsv(); break;
-                case "2": Console.WriteLine("\n[em breve]"); break;
+                case "2": Exibidor.ExibirTabela(_dados); break;
                 case "3": Console.WriteLine("\n[em breve]"); break;
                 case "4": Console.WriteLine("\n[em breve]"); break;
                 case "5": Console.WriteLine("\n[em breve]"); break;
