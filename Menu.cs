@@ -26,7 +26,7 @@ class Menu
                 case "1": CarregarCsv(); break;
                 case "2": Exibidor.ExibirTabela(_dados); break;
                 case "3": Estatisticas.Exibir(_dados); break;
-                case "4": Console.WriteLine("\n[em breve]"); break;
+                case "4": Filtro.FiltrarPorCategoria(_dados); break;
                 case "5": Console.WriteLine("\n[em breve]"); break;
                 case "0": return;
                 default: Console.WriteLine("\nOpção inválida."); break;
