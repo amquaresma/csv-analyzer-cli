@@ -1,0 +1,5 @@
+/workspaces/csv-analyzer-cli/obj/Debug/net10.0/analyzescvs.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/csv-analyzer-cli/obj/Debug/net10.0/analyzescvs.AssemblyInfoInputs.cache
+/workspaces/csv-analyzer-cli/obj/Debug/net10.0/analyzescvs.AssemblyInfo.cs
+/workspaces/csv-analyzer-cli/obj/Debug/net10.0/analyzescvs.csproj.CoreCompileInputs.cache
+/workspaces/csv-analyzer-cli/obj/Debug/net10.0/analyzescvs.sourcelink.json

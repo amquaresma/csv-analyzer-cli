@@ -3,6 +3,8 @@ namespace csv_analyzer_cli;
 
 class Menu
 {
+    private static List<Dictionary<string, string>> _dados = new();
+
     public static void Exibir()
     {
         while (true)
@@ -21,7 +23,7 @@ class Menu
 
             switch (opcao)
             {
-                case "1": Console.WriteLine("\n[em breve]"); break;
+                case "1": CarregarCsv(); break;
                 case "2": Console.WriteLine("\n[em breve]"); break;
                 case "3": Console.WriteLine("\n[em breve]"); break;
                 case "4": Console.WriteLine("\n[em breve]"); break;
@@ -33,5 +35,16 @@ class Menu
             Console.WriteLine("\nPressione qualquer tecla para continuar...");
             Console.ReadKey();
         }
+    }
+
+    private static void CarregarCsv()
+    {
+        Console.Write("\nCaminho do arquivo (ex: data/gastos.csv): ");
+        var caminho = Console.ReadLine();
+
+        _dados = CsvLeitor.Carregar(caminho ?? "");
+
+        if (_dados.Count > 0)
+            Console.WriteLine($"{_dados.Count} registros carregados com sucesso!");
     }
 }
