@@ -13,7 +13,10 @@ class CsvLeitor
             return registros;
         }
 
-        var linhas = File.ReadAllLines(caminho);
+        // Ignora linhas de comentário que começam com # e linhas vazias
+        var linhas = File.ReadAllLines(caminho)
+            .Where(l => !l.TrimStart().StartsWith("#") && !string.IsNullOrWhiteSpace(l))
+            .ToArray();
 
         if (linhas.Length < 2)
         {
