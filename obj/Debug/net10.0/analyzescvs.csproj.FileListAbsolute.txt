@@ -3,3 +3,13 @@
 /workspaces/csv-analyzer-cli/obj/Debug/net10.0/analyzescvs.AssemblyInfo.cs
 /workspaces/csv-analyzer-cli/obj/Debug/net10.0/analyzescvs.csproj.CoreCompileInputs.cache
 /workspaces/csv-analyzer-cli/obj/Debug/net10.0/analyzescvs.sourcelink.json
+/workspaces/csv-analyzer-cli/bin/Debug/net10.0/analyzescvs
+/workspaces/csv-analyzer-cli/bin/Debug/net10.0/analyzescvs.deps.json
+/workspaces/csv-analyzer-cli/bin/Debug/net10.0/analyzescvs.runtimeconfig.json
+/workspaces/csv-analyzer-cli/bin/Debug/net10.0/analyzescvs.dll
+/workspaces/csv-analyzer-cli/bin/Debug/net10.0/analyzescvs.pdb
+/workspaces/csv-analyzer-cli/obj/Debug/net10.0/analyzescvs.dll
+/workspaces/csv-analyzer-cli/obj/Debug/net10.0/refint/analyzescvs.dll
+/workspaces/csv-analyzer-cli/obj/Debug/net10.0/analyzescvs.pdb
+/workspaces/csv-analyzer-cli/obj/Debug/net10.0/analyzescvs.genruntimeconfig.cache
+/workspaces/csv-analyzer-cli/obj/Debug/net10.0/ref/analyzescvs.dll
