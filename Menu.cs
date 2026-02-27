@@ -4,9 +4,16 @@ namespace csv_analyzer_cli;
 class Menu
 {
     private static List<Dictionary<string, string>> _dados = new();
+    private static bool _tutorialExibido = false;
 
     public static void Exibir()
     {
+        if (!_tutorialExibido)
+        {
+            ExibirTutorial();
+            _tutorialExibido = true;
+        }
+
         while (true)
         {
             Console.Clear();
@@ -35,6 +42,22 @@ class Menu
             Console.WriteLine("\nPressione qualquer tecla para continuar...");
             Console.ReadKey();
         }
+    }
+
+    private static void ExibirTutorial()
+    {
+        Console.Clear();
+        Console.WriteLine("=== Bem-vindo ao CSV Analyzer CLI ===\n");
+        Console.WriteLine("Este programa analisa arquivos CSV de gastos pessoais.\n");
+        Console.WriteLine("Como usar:");
+        Console.WriteLine("  1. Coloque seu arquivo CSV na pasta /data do projeto");
+        Console.WriteLine("  2. Carregue o arquivo pela opção 1 do menu");
+        Console.WriteLine("  3. Use as opções 2 a 5 para explorar os dados\n");
+        Console.WriteLine("Formato esperado do CSV:");
+        Console.WriteLine("  data,categoria,descricao,valor");
+        Console.WriteLine("  01/02/2025,alimentacao,mercado,250.00\n");
+        Console.WriteLine("Pressione qualquer tecla para continuar...");
+        Console.ReadKey();
     }
 
     private static void CarregarCsv()
