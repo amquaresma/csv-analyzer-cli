@@ -3,7 +3,7 @@
 # - Colunas: data, categoria, descricao, valor
 # - Data no formato DD/MM/AAAA
 # - Valor usando ponto como separador decimal (ex: 250.00)
-# - Categorias sugeridas: alimentacao, transporte, lazer, saude, moradia
+# - Categorias sugeridas: alimentacao, transporte, lazer, saude, moradia, educacao, vestuario, tecnologia, assinaturas, pets
 # - Não use acentos nas categorias para evitar problemas de encoding
 # ---
 data,categoria,descricao,valor
@@ -14,3 +14,18 @@ data,categoria,descricao,valor
 20/02/2025,alimentacao,ifood,62.00
 22/02/2025,transporte,gasolina,180.00
 25/02/2025,lazer,netflix,55.90
+02/02/2025,saude,farmacia,98.00
+07/02/2025,saude,academia,99.90
+12/02/2025,moradia,aluguel,1200.00
+14/02/2025,moradia,conta de luz,180.00
+16/02/2025,moradia,internet,99.90
+18/02/2025,educacao,curso online,197.00
+19/02/2025,educacao,livro,59.90
+21/02/2025,vestuario,camiseta,89.90
+23/02/2025,vestuario,tenis,349.90
+24/02/2025,tecnologia,mouse,159.90
+26/02/2025,tecnologia,hd externo,299.00
+27/02/2025,assinaturas,spotify,21.90
+28/02/2025,assinaturas,youtube premium,27.90
+03/02/2025,pets,racao,120.00
+08/02/2025,pets,veterinario,250.00
